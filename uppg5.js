@@ -7,9 +7,9 @@ let tal1 = 6;
 let tal2 = 16;
 
 if (tal1 > tal2){
-    console.log("Det första talet är större den andra");
+    console.log("Det första talet är större än det andra");
 } else {
-    console.log("Det andra talet är större den första");
+    console.log("Det andra talet är större än det första");
 }
 
 
