@@ -6,10 +6,10 @@ function uppg5() {
 let tal1 = 6;
 let tal2 = 16;
 
-if (tal1 >tal2){
-    console.log("Den första talet är större den andra.");
+if (tal1 > tal2){
+    console.log("Det första talet är större den andra");
 } else {
-    console.log("Den andra talet är större den första");
+    console.log("Det andra talet är större den första");
 }
 
 
