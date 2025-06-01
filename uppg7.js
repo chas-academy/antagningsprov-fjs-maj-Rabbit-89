@@ -9,9 +9,8 @@ function sum(tal1, tal2){
     return tal1 + tal2;
 }
 
-let result = sum(5, 10);
 
-console.log(result);
+console.log(sum(5, 10));
  
 }
 
