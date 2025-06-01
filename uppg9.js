@@ -7,16 +7,28 @@ function uppg9 (){
     // resultatet ska loggas i formatet: talet och sen ordet "jämt" eller "udda"
 
     // anropa funktionen och skicka med en array som argument
-function sort(siffror){
-    for (let siffra of siffror){
-        if (siffra %2 === 0){
-            console.log(siffra + " jämt");
-        } else {
-            console.log(siffra + " udda");
-        }
+// function sort(siffror){
+//     for (let siffra of siffror){
+//         if (siffra %2 === 0){
+//             console.log(siffra + "jämt");
+//         } else {
+//             console.log(siffra + "udda");
+//         }
+//     }
+// }
+//   sort ([1, 15, 12, 22, 34, 35, 40, 41]);
+function sort(numbers) {
+  for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
+      console.log(numbers[i] + " jämt");
+    } else {
+      console.log(numbers[i] + " udda");
     }
+  }
 }
-  sort ([1, 15, 12, 22, 34, 35, 40, 41]);
+
+// Anropa funktionen med en array som argument
+sort([1, 2, 3, 4, 5, 6]);
 }
 
 module.exports = { uppg9 };
