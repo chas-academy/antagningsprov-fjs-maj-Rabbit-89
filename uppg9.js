@@ -20,9 +20,9 @@ function uppg9 (){
 function sort(numbers) {
   for (let i = 0; i < numbers.length; i++) {
     if (numbers[i] % 2 === 0) {
-      console.log(numbers[i] + " jämt");
+      console.log(numbers[i]);
     } else {
-      console.log(numbers[i] + " udda");
+      console.log(numbers[i]);
     }
   }
 }

@@ -8,9 +8,7 @@ function uppg7() {
 function sum(tal1, tal2){
    return tal1 + tal2;
 }
-let result= sum(5,10);
-
-console.log(result);
+return sum(5, 10);
  
 }
 
