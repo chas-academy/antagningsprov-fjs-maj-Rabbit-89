@@ -3,7 +3,14 @@ function uppg5() {
     // skriv en if-sats som jämför två tal
     // om det första talet är större än det andra, skriv ut "Det första talet är större än det andra"
     // annars skriv ut "Det andra talet är större än det första"
+let tal1 = 6;
+let tal2 = 16;
 
+if (tal1 >tal2){
+    console.log("Den första talet är större den andra.");
+} else {
+    console.log("Den andra talet är större den första");
+}
 
 
 }

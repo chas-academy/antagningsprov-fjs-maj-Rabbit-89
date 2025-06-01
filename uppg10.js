@@ -9,6 +9,21 @@ function uppg10(){
     // returnera ett objekt med de tre arrayerna
 
   
+let bigEven = [];
+let smallOdd = [];
+let other = [];
+
+for (let number of numbers){
+    if (number %2 === 0 && number >10 ){
+        bigEven.push(number);
+    } else if (number %2 !==0 && number < 10){
+        smallOdd.push(number);
+    } else {
+        other.push(number);
+    }
+}
+
+console.log( " bigEven " + bigEven, "\n smallOdd " + smallOdd, "\n other " + other);
     
   
   }
