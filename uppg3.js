@@ -6,13 +6,12 @@ function uppg3() {
     // deklarera två variabler, a och b
     // tilldela värdena 5 och 10 till variablerna
     // skriv ut summan av a och b i konsolen
-function sum(tal1, tal2){
-    return tal1 + tal2;
-}
+let a = 5;
+let b = 10;
 
-let result = sum(5,10);
+let summan = a + b;
 
-console.log(result);
+console.log(summan);
 }
 
 
